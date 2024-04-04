@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body{
+    background-color: rgb(234, 231, 231);
+}
+
+.expense-tracker{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #023047;
+    font-family: QuickSand, sans-serif;
+    background-color: rgb(234, 231, 231);
+}
+
+.expense-tracker p{
+    font-size:40px;
+    
+}
+
+.expense-tracker h1{
+    margin-left: 10px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.profile-photo{
+    width: 200px;
+    border-radius:50% ;
+}
+
+.sign-out-button {
+    border: none;
+    margin-top: 50px;
+    width: 150px;
+    background: #3498db;
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.sign-out-button:hover {
+    width: 180px; /* Adjusted width on hover */
+    
+    border: 3px solid #023047;
+    padding: 10px 20px; /* Adjusted padding on hover */
+    cursor: pointer;
+}
+
+
+.transactions{
+    /* margin-left: 430px;
+    margin-top: 20px;
+    padding-left: 10px; */
+    margin: 30px auto;
+    
+    
+    width: 600px;
+    height: 400px;
+    overflow: auto;
+    border: 3px solid #023047;
+    font-family: QuickSand, sans-serif;
+}
+
+.balance{
+    background-color: #42224a;
+    color: #ffffff;
+    border-radius: 20px;
+    height: 120px;
+    box-shadow: 7px 5px 3px #888888;
+}
+
+.balance h3{
+    margin-left: 40px;
+    padding-top: 11px;
+}
+
+.balance h2{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.income {
+    border-radius: 20px;
+    height: 120px;
+    background-color: darkgreen;
+    color: #ffffff;
+    box-shadow: 7px 5px 3px #888888;
+}
+
+.income h4{
+    margin-left: 40px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.income p{
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.expenses{
+
+    border-radius: 20px;
+    height: 120px;
+    background-color: darkred;
+    color: #ffffff;
+    box-shadow: 7px 5px 3px #888888;
+}
+
+.expenses h4{
+    margin-left: 40px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.expenses p{
+    margin-left: 40px;
+    font-size: 30px;
+
+}
+
+.add-transaction{
+    width: 100%; /* Adjusted width for responsiveness */
+    margin-top: 100px;
+   
+}
+
+.entire{
+    background-color: rgb(234, 231, 231);
+}
+
+
+.profile{
+    height: 480px;
+    width: 320px;
+    background-color: #e0d6d6;
+    border-radius: 20px;
+    box-shadow: 3px 10px 3px 3px  #888888;
+    margin-top: -50px;
+}
+
+.profile-photo{
+    margin-top: 80px;
+}
+
+.container h2{
+    margin-bottom: 50px;
+    margin-left: 12px;
+}
+
+.add-transaction {
+    width: 80%;
+    margin: 100px auto;
+}
+
+
+.add-transaction button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+}
+
+
+
+.add-transaction button {
+    background: #3498db;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.add-transaction button:hover {
+    background-color: #2980b9;
+}
+

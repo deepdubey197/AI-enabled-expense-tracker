@@ -29,7 +29,7 @@ export const ExpenseTracker=()=>{
 
     
     const[answer, setAnswer]=useState("") 
-    const API_KEY = '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';
+    const API_KEY = 'ACCESS_TOKEN';
     const[selectedImage,setSelectedImage]=useState(null);
     const[textResult,setTextResult]=useState("");
     const [text, setText] = useState("");
